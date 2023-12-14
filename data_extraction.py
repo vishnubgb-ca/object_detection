@@ -1,8 +1,8 @@
 import boto3
 import os
 
-os.environ["AWS_ACCESS_KEY_ID"]="your access key"
-os.environ["AWS_SECRET_ACCESS_KEY"]="your secret key"
+# os.environ["AWS_ACCESS_KEY_ID"]="your access key"
+# os.environ["AWS_SECRET_ACCESS_KEY"]="your secret key"
 
 
 def extract_data():
