@@ -324,6 +324,9 @@ def transform_data():
         def __len__(self):
             return len(self.all_images)
 
+        def __reduce__(self):
+            return (self.__class__, (self.images_path, self.labels_path, self.width, self.height, self.classes, self.transforms))
+
     IMAGE_WIDTH = 640
     IMAGE_HEIGHT = 480
     classes = ["background","smoke"]
