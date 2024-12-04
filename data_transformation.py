@@ -11,7 +11,7 @@ import random
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
 from torchvision import transforms as transforms
-import pickle
+import dill as pickle
 
 
 os.system("pip show torch")
