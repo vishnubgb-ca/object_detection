@@ -13,6 +13,8 @@ from albumentations.pytorch import ToTensorV2
 from torchvision import transforms as transforms
 import dill as pickle
 
+
+os.system("pip show torch")
 def transform_data():
     # Define the training tranforms
     def get_train_aug():
