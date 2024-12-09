@@ -1,7 +1,7 @@
 from datavisualization import visualise_image
 from torch.utils.data import Dataset
 import os
-from xml.etree import ElementTree as ET
+# from xml.etree import ElementTree as ET
 import glob as glob
 import torch
 import cv2
