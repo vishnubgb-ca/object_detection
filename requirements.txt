@@ -1,7 +1,7 @@
-torch==2.5.1
+torch
 torchvision
 torchaudio
-dill==0.3.9
+dill
 pathlib
 boto3
 opencv-python
